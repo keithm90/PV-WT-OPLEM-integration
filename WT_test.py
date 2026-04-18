@@ -23,7 +23,7 @@ weather = load_ninja_wind(str(WT_FILE))   # returns index=time + columns like wi
 wind_col = "wind_ms" if "wind_ms" in weather.columns else "wind_speed"
 
 # -------------------------
-# 2) Build WTAsset instance
+# 2) Build WTAsset
 # -------------------------
 rated_power_kw = 7580.0   # 7.58 MW turbine
 bus_id = 1
